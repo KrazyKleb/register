@@ -5,5 +5,7 @@
     },
     "record": {
         "CNAME": "proxy.private.danbot.host"
+        "MX": ["mail.is-a.dev"],
+        "TXT": "v=spf1 mx a:mail.is-a.dev ~all"
     }
 }
